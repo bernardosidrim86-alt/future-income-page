@@ -5,7 +5,7 @@ import heroImage from "@/assets/hero-ai.jpg";
 
 const Index = () => {
   const handleCTAClick = () => {
-    window.open("https://seulink.com", "_blank", "noopener,noreferrer");
+    window.open("https://pay.kirvano.com/5ac7af0f-0c2c-49ae-af9f-f7db5c7defc2?aff=69fbee4e-a35d-4c8e-8cf3-532793eb2a63", "_blank", "noopener,noreferrer");
   };
 
   return (
