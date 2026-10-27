@@ -33,7 +33,7 @@ export const ContentTabs = () => {
 
   return (
     <section className="mt-5 space-y-3">
-      <div className="flex rounded-2xl border border-border bg-card px-3" role="tablist">
+      <div className="flex rounded-[14px] border border-border bg-card px-3 pt-1" role="tablist">
         {(["posts", "midias"] as const).map((t) => (
           <button
             key={t}

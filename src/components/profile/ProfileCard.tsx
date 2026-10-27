@@ -43,7 +43,7 @@ export const ProfileCard = () => {
           Seu Nome <BadgeCheck className="h-4 w-4 fill-primary text-card" />
         </h1>
         <p className="text-xs text-primary">@seuusuario</p>
-        <p className={cn("mt-3 text-[13px] leading-relaxed text-muted-foreground", !expanded && "line-clamp-2")}>{BIO}</p>
+        <p className={cn("mt-3 text-[13.5px] leading-relaxed text-muted-foreground", !expanded && "line-clamp-2")}>{BIO}</p>
         <button type="button" onClick={() => setExpanded((v) => !v)} className="mt-0.5 text-[13px] font-bold text-primary hover:underline">
           {expanded ? "Ler menos" : "Ler mais"}
         </button>
