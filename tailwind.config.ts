@@ -47,10 +47,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        neon: {
-          blue: "hsl(var(--neon-blue))",
-          purple: "hsl(var(--neon-purple))",
-        },
+        backdrop: "hsl(var(--backdrop))",
+        surface: "hsl(var(--surface))",
+        locked: "hsl(var(--locked))",
+        "primary-strong": "hsl(var(--primary-strong))",
+        "plan-1": "hsl(var(--plan-1))",
+        "plan-2": "hsl(var(--plan-2))",
+        "plan-3": "hsl(var(--plan-3))",
       },
       borderRadius: {
         lg: "var(--radius)",
